@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849C028B1E655E84009DA605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C028A1E655E84009DA605 /* main.m */; };
+		849C028E1E655E84009DA605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C028D1E655E84009DA605 /* AppDelegate.m */; };
+		849C02911E655E84009DA605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C02901E655E84009DA605 /* ViewController.m */; };
+		849C02941E655E84009DA605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C02921E655E84009DA605 /* Main.storyboard */; };
+		849C02961E655E84009DA605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849C02951E655E84009DA605 /* Assets.xcassets */; };
+		849C02991E655E84009DA605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C02971E655E84009DA605 /* LaunchScreen.storyboard */; };
+		849C02A41E655E84009DA605 /* WCDragDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C02A31E655E84009DA605 /* WCDragDemoTests.m */; };
+		849C02AF1E655E84009DA605 /* WCDragDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C02AE1E655E84009DA605 /* WCDragDemoUITests.m */; };
+		849C02BE1E655FBF009DA605 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C02BD1E655FBF009DA605 /* UIView+Frame.m */; };
+		849C02C21E656052009DA605 /* YLDargSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C02C11E656052009DA605 /* YLDargSortCell.m */; };
+		849C02C61E6560B2009DA605 /* YLDragSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C02C51E6560B2009DA605 /* YLDragSortTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849C02A01E655E84009DA605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849C027E1E655E84009DA605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849C02851E655E84009DA605;
+			remoteInfo = WCDragDemo;
+		};
+		849C02AB1E655E84009DA605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849C027E1E655E84009DA605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849C02851E655E84009DA605;
+			remoteInfo = WCDragDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849C02861E655E84009DA605 /* WCDragDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCDragDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849C028A1E655E84009DA605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849C028C1E655E84009DA605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849C028D1E655E84009DA605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849C028F1E655E84009DA605 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849C02901E655E84009DA605 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849C02931E655E84009DA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849C02951E655E84009DA605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849C02981E655E84009DA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849C029A1E655E84009DA605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849C029F1E655E84009DA605 /* WCDragDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCDragDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849C02A31E655E84009DA605 /* WCDragDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCDragDemoTests.m; sourceTree = "<group>"; };
+		849C02A51E655E84009DA605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849C02AA1E655E84009DA605 /* WCDragDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCDragDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849C02AE1E655E84009DA605 /* WCDragDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCDragDemoUITests.m; sourceTree = "<group>"; };
+		849C02B01E655E84009DA605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849C02BC1E655FBF009DA605 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		849C02BD1E655FBF009DA605 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		849C02BF1E655FCE009DA605 /* YLDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLDefine.h; sourceTree = "<group>"; };
+		849C02C01E656052009DA605 /* YLDargSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDargSortCell.h; sourceTree = "<group>"; };
+		849C02C11E656052009DA605 /* YLDargSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDargSortCell.m; sourceTree = "<group>"; };
+		849C02C41E6560B2009DA605 /* YLDragSortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDragSortTool.h; sourceTree = "<group>"; };
+		849C02C51E6560B2009DA605 /* YLDragSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDragSortTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849C02831E655E84009DA605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849C029C1E655E84009DA605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849C02A71E655E84009DA605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849C027D1E655E84009DA605 = {
+			isa = PBXGroup;
+			children = (
+				849C02881E655E84009DA605 /* WCDragDemo */,
+				849C02A21E655E84009DA605 /* WCDragDemoTests */,
+				849C02AD1E655E84009DA605 /* WCDragDemoUITests */,
+				849C02871E655E84009DA605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849C02871E655E84009DA605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849C02861E655E84009DA605 /* WCDragDemo.app */,
+				849C029F1E655E84009DA605 /* WCDragDemoTests.xctest */,
+				849C02AA1E655E84009DA605 /* WCDragDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849C02881E655E84009DA605 /* WCDragDemo */ = {
+			isa = PBXGroup;
+			children = (
+				849C02C31E6560B2009DA605 /* Tool */,
+				849C02C01E656052009DA605 /* YLDargSortCell.h */,
+				849C02C11E656052009DA605 /* YLDargSortCell.m */,
+				849C02BF1E655FCE009DA605 /* YLDefine.h */,
+				849C02BC1E655FBF009DA605 /* UIView+Frame.h */,
+				849C02BD1E655FBF009DA605 /* UIView+Frame.m */,
+				849C028C1E655E84009DA605 /* AppDelegate.h */,
+				849C028D1E655E84009DA605 /* AppDelegate.m */,
+				849C028F1E655E84009DA605 /* ViewController.h */,
+				849C02901E655E84009DA605 /* ViewController.m */,
+				849C02921E655E84009DA605 /* Main.storyboard */,
+				849C02951E655E84009DA605 /* Assets.xcassets */,
+				849C02971E655E84009DA605 /* LaunchScreen.storyboard */,
+				849C029A1E655E84009DA605 /* Info.plist */,
+				849C02891E655E84009DA605 /* Supporting Files */,
+			);
+			path = WCDragDemo;
+			sourceTree = "<group>";
+		};
+		849C02891E655E84009DA605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849C028A1E655E84009DA605 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849C02A21E655E84009DA605 /* WCDragDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				849C02A31E655E84009DA605 /* WCDragDemoTests.m */,
+				849C02A51E655E84009DA605 /* Info.plist */,
+			);
+			path = WCDragDemoTests;
+			sourceTree = "<group>";
+		};
+		849C02AD1E655E84009DA605 /* WCDragDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				849C02AE1E655E84009DA605 /* WCDragDemoUITests.m */,
+				849C02B01E655E84009DA605 /* Info.plist */,
+			);
+			path = WCDragDemoUITests;
+			sourceTree = "<group>";
+		};
+		849C02C31E6560B2009DA605 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				849C02C41E6560B2009DA605 /* YLDragSortTool.h */,
+				849C02C51E6560B2009DA605 /* YLDragSortTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849C02851E655E84009DA605 /* WCDragDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849C02B31E655E84009DA605 /* Build configuration list for PBXNativeTarget "WCDragDemo" */;
+			buildPhases = (
+				849C02821E655E84009DA605 /* Sources */,
+				849C02831E655E84009DA605 /* Frameworks */,
+				849C02841E655E84009DA605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCDragDemo;
+			productName = WCDragDemo;
+			productReference = 849C02861E655E84009DA605 /* WCDragDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849C029E1E655E84009DA605 /* WCDragDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849C02B61E655E84009DA605 /* Build configuration list for PBXNativeTarget "WCDragDemoTests" */;
+			buildPhases = (
+				849C029B1E655E84009DA605 /* Sources */,
+				849C029C1E655E84009DA605 /* Frameworks */,
+				849C029D1E655E84009DA605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849C02A11E655E84009DA605 /* PBXTargetDependency */,
+			);
+			name = WCDragDemoTests;
+			productName = WCDragDemoTests;
+			productReference = 849C029F1E655E84009DA605 /* WCDragDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849C02A91E655E84009DA605 /* WCDragDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849C02B91E655E84009DA605 /* Build configuration list for PBXNativeTarget "WCDragDemoUITests" */;
+			buildPhases = (
+				849C02A61E655E84009DA605 /* Sources */,
+				849C02A71E655E84009DA605 /* Frameworks */,
+				849C02A81E655E84009DA605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849C02AC1E655E84009DA605 /* PBXTargetDependency */,
+			);
+			name = WCDragDemoUITests;
+			productName = WCDragDemoUITests;
+			productReference = 849C02AA1E655E84009DA605 /* WCDragDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849C027E1E655E84009DA605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.gz.bingoMobileSchoolss;
+				TargetAttributes = {
+					849C02851E655E84009DA605 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8X8A8J7LVX;
+						ProvisioningStyle = Automatic;
+					};
+					849C029E1E655E84009DA605 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849C02851E655E84009DA605;
+					};
+					849C02A91E655E84009DA605 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849C02851E655E84009DA605;
+					};
+				};
+			};
+			buildConfigurationList = 849C02811E655E84009DA605 /* Build configuration list for PBXProject "WCDragDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849C027D1E655E84009DA605;
+			productRefGroup = 849C02871E655E84009DA605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849C02851E655E84009DA605 /* WCDragDemo */,
+				849C029E1E655E84009DA605 /* WCDragDemoTests */,
+				849C02A91E655E84009DA605 /* WCDragDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849C02841E655E84009DA605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849C02991E655E84009DA605 /* LaunchScreen.storyboard in Resources */,
+				849C02961E655E84009DA605 /* Assets.xcassets in Resources */,
+				849C02941E655E84009DA605 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849C029D1E655E84009DA605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849C02A81E655E84009DA605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849C02821E655E84009DA605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849C02BE1E655FBF009DA605 /* UIView+Frame.m in Sources */,
+				849C02911E655E84009DA605 /* ViewController.m in Sources */,
+				849C028E1E655E84009DA605 /* AppDelegate.m in Sources */,
+				849C028B1E655E84009DA605 /* main.m in Sources */,
+				849C02C61E6560B2009DA605 /* YLDragSortTool.m in Sources */,
+				849C02C21E656052009DA605 /* YLDargSortCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849C029B1E655E84009DA605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849C02A41E655E84009DA605 /* WCDragDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849C02A61E655E84009DA605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849C02AF1E655E84009DA605 /* WCDragDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849C02A11E655E84009DA605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849C02851E655E84009DA605 /* WCDragDemo */;
+			targetProxy = 849C02A01E655E84009DA605 /* PBXContainerItemProxy */;
+		};
+		849C02AC1E655E84009DA605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849C02851E655E84009DA605 /* WCDragDemo */;
+			targetProxy = 849C02AB1E655E84009DA605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849C02921E655E84009DA605 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849C02931E655E84009DA605 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849C02971E655E84009DA605 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849C02981E655E84009DA605 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849C02B11E655E84009DA605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849C02B21E655E84009DA605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849C02B41E655E84009DA605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8X8A8J7LVX;
+				INFOPLIST_FILE = WCDragDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gz.bingo.WCDragDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849C02B51E655E84009DA605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8X8A8J7LVX;
+				INFOPLIST_FILE = WCDragDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gz.bingo.WCDragDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849C02B71E655E84009DA605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WCDragDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gz.bingo.WCDragDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCDragDemo.app/WCDragDemo";
+			};
+			name = Debug;
+		};
+		849C02B81E655E84009DA605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WCDragDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gz.bingo.WCDragDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCDragDemo.app/WCDragDemo";
+			};
+			name = Release;
+		};
+		849C02BA1E655E84009DA605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WCDragDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gz.bingo.WCDragDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WCDragDemo;
+			};
+			name = Debug;
+		};
+		849C02BB1E655E84009DA605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WCDragDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gz.bingo.WCDragDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WCDragDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849C02811E655E84009DA605 /* Build configuration list for PBXProject "WCDragDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849C02B11E655E84009DA605 /* Debug */,
+				849C02B21E655E84009DA605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849C02B31E655E84009DA605 /* Build configuration list for PBXNativeTarget "WCDragDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849C02B41E655E84009DA605 /* Debug */,
+				849C02B51E655E84009DA605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849C02B61E655E84009DA605 /* Build configuration list for PBXNativeTarget "WCDragDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849C02B71E655E84009DA605 /* Debug */,
+				849C02B81E655E84009DA605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849C02B91E655E84009DA605 /* Build configuration list for PBXNativeTarget "WCDragDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849C02BA1E655E84009DA605 /* Debug */,
+				849C02BB1E655E84009DA605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849C027E1E655E84009DA605 /* Project object */;
+}

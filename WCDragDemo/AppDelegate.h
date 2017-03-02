@@ -1,0 +1,17 @@
+//
+//  AppDelegate.h
+//  WCDragDemo
+//
+//  Created by admin on 2017/2/28.
+//  Copyright © 2017年 com.gz.bingoMobileSchoolss. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+
+@end
+
